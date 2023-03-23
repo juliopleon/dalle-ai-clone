@@ -10,8 +10,8 @@ const router = express.Router();
 
 cloudinary.config({
     cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-    cloud_key: process.env.CLOUDINARY_CLOUD_KEY,
-    cloud_secret: process.env.CLOUDINARY_CLOUD_SECRET,
+    cloud_key: process.env.CLOUDINARY_API_KEY,
+    cloud_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
 // GET ALL POSTS
