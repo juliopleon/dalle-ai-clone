@@ -41,7 +41,7 @@ const CreatePost = () => {
         }
     }
 
-    const handleSubmit = () => {
+    const handleSubmit = async (e) => {
 
     }
 
@@ -85,7 +85,7 @@ const CreatePost = () => {
                         {form.photo ? (
                             <img
                                 src={form.photo}
-                                alt={from.prompt}
+                                alt={form.prompt}
                                 className="w-full h-full object-contain"
                             />
                         ) : (
